@@ -36,7 +36,7 @@ inquirer.prompt([
     {
         type:"input",
         name:"install",
-        message:"how do you and install and run your project?"
+        message:"how do you install and run your project?"
     },
     {
         type:"input",
