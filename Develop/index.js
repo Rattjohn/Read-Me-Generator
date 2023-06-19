@@ -48,11 +48,6 @@ inquirer.prompt([
     },
     {
         type: "input",
-        name: "badges",
-        message: "add your badge(if used) "
-    },
-    {
-        type: "input",
         name: "git",
         message: "What is your github username "
     },
@@ -69,7 +64,6 @@ inquirer.prompt([
     const { table } = response;
     const { install } = response;
     const { projectLicense } = response;
-    const { badges } = response;
     const { git } = response;
     const { email } = response;
 
